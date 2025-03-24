@@ -3,14 +3,18 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Clone Disney+</title>
+    <title>Death Stranding</title>
     <link rel="stylesheet" href="dist/css/main.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400..900&display=swap" rel="stylesheet">
+
 </head>
 <body>
     <header class="header">
         <div class="header__container">
             <h1>
-                <img class="header__logo" src="./dist/images/disneyplus.svg" alt="Disney+">
+                <img class="header__logo" src="./dist/images/DS/kojima.png" alt="Disney+">
             </h1>
             <ul class="header__links">
                 <li class="header__links__item">
@@ -25,35 +29,17 @@
     <section class="hero">
         <div class="hero__content">
             <div class="hero__content__branding">
-                <img src="./dist/images/disneyplus.svg" alt="Disney+">
+                <img src="./dist/images/DS/kojima03.png" alt="Disney+">
             </div>
-            <h3 class="title--small">
-                As melhores histórias  em um só lugar.
-            </h3>
-            <p>
-                <a href="#" class="link-text">Assinar o Disney+</a>
-                <br>
-                <span class="text">
-                    R$ 27,90/mês ou 279,90/ano à vista*
-                </span>
-            </p>
             <ul class="hero__content__combos">
                 <li class="hero__content__combos__combo">
-                    <img src="./dist/images/logos/disney_star_plus.png" alt="Disney+ - Star+ - Combo+">
-                    <button class="button">Assine Agora</button>
-                    <span class="text">R$ 45,90/mês*</span>
-                </li>
-                <li class="hero__content__combos__combo">
-                    <img src="./dist/images/logos/disney_star_plus_starzplay.png" alt="Disney+ - Star+ - Combo+">
-                    <button class="button">Assine Agora</button>
-                    <span class="text">R$ 55,90/mês*</span>
+                    <a href="https://www.youtube.com/watch?v=eT_A2gPhTIw" class="button button--secondary">assista ao trailer</a>
                 </li>
             </ul>
-            <p class="text--small">
-                *O preço pode variar caso a assinatura seja feita através de outras plataformas.
-            </p>
         </div>
     </section>
+    <br>
+    <br>
     <section class="shows">
         <nav class="shows__tabs">
             <button data-tab-button="em_breve" class="shows__tabs__button shows__tabs__button--is-active">
@@ -63,120 +49,106 @@
                 Mais populares
             </button>
             <button data-tab-button="star_plus"  class="shows__tabs__button">
-                Mais no Star+
+                Mais de Death Stranding
             </button>
         </nav>
         <ul data-tab-id="em_breve" class="shows__list shows__list--is-active">
             <li class="shows__list__item">
-                <img src="./dist/images/em_breve/spidey.jpg" alt="Spidey">
+                <img src="./dist/images/DS/show-tab1-1.jpeg" alt="Spidey">
             </li>
             <li class="shows__list__item">
-                <img src="./dist/images/em_breve/desencantada.jpg" alt="Spidey">
+                <img src="./dist/images/DS/show-tab1-2.jpeg" alt="Spidey">
             </li>
             <li class="shows__list__item">
-                <img src="./dist/images/em_breve/lobisomem.jpg" alt="Spidey">
+                <img src="./dist/images/DS/show-tab1-3.jpeg" alt="Spidey">
             </li>
             <li class="shows__list__item">
-                <img src="./dist/images/em_breve/sem_limites.jpg" alt="Spidey">
+                <img src="./dist/images/DS/show-tab2-1.jpeg" alt="Spidey">
             </li>
             <li class="shows__list__item">
-                <img src="./dist/images/em_breve/willow.jpg" alt="Spidey">
+                <img src="./dist/images/DS/show-tab2-2.jpeg" alt="Spidey">
             </li>
             <li class="shows__list__item">
-                <img src="./dist/images/em_breve/the_santa_clauses.jpg" alt="Spidey">
+                <img src="./dist/images/DS/show-tab2-3.jpeg" alt="Spidey">
             </li>
         </ul>
         <ul data-tab-id="populares" class="shows__list">
             <li class="shows__list__item">
-                <img src="./dist/images/mais_populares/bluey.jpg" alt="Bluey">
+                <img src="./dist/images/DS/show-tab3-1.jpeg" alt="Bluey">
             </li>
             <li class="shows__list__item">
-                <img src="./dist/images/mais_populares/red.jpg" alt="Spidey">
+                <img src="./dist/images/DS/show-tab3-2.jpeg" alt="Spidey">
             </li>
             <li class="shows__list__item">
-                <img src="./dist/images/mais_populares/tudo_igual_sqn.jpg" alt="Spidey">
+                <img src="./dist/images/DS/show-tab3-3.jpeg" alt="Spidey">
             </li>
             <li class="shows__list__item">
-                <img src="./dist/images/mais_populares/o_incrivel_dr_pol.jpg" alt="Spidey">
+                <img src="./dist/images/DS/show-tab1-3.jpeg" alt="Spidey">
             </li>
             <li class="shows__list__item">
-                <img src="./dist/images/mais_populares/obi_wan.jpg" alt="Spidey">
+                <img src="./dist/images/DS/show-tab1-2.jpeg" alt="Spidey">
             </li>
             <li class="shows__list__item">
-                <img src="./dist/images/mais_populares/cavaleira_da_lua.jpg" alt="Spidey">
+                <img src="./dist/images/DS/show-tab1-1.jpeg" alt="Spidey">
             </li>
         </ul>
         <ul data-tab-id="star_plus" class="shows__list">
             <li class="shows__list__item">
-                <img src="./dist/images/mais_no_star_plus/belair.jpg" alt="belair">
+                <img src="./dist/images/DS/show-tab2-3.jpeg" alt="belair">
             </li>
             <li class="shows__list__item">
-                <img src="./dist/images/mais_no_star_plus/the_kardashians.jpg" alt="Obi Wan">
+                <img src="./dist/images/DS/show-tab2-2.jpeg" alt="Obi Wan">
             </li>
             <li class="shows__list__item">
-                <img src="./dist/images/mais_no_star_plus/os_simpson.jpg" alt="Spidey">
+                <img src="./dist/images/DS/show-tab2-1.jpeg" alt="Spidey">
             </li>
             <li class="shows__list__item">
-                <img src="./dist/images/mais_no_star_plus/libertadores.jpg" alt="Spidey">
+                <img src="./dist/images/DS/show-tab1-3.jpeg" alt="Spidey">
             </li>
             <li class="shows__list__item">
-                <img src="./dist/images/mais_no_star_plus/nba.jpg" alt="Spidey">
+                <img src="./dist/images/DS/show-tab3-2.jpeg" alt="Spidey">
             </li>
             <li class="shows__list__item">
-                <img src="./dist/images/mais_no_star_plus/premier_league.jpg" alt="Spidey">
+                <img src="./dist/images/DS/show-tab1-2.jpeg" alt="Spidey">
             </li>
         </ul>
-    </section>
-    <section class="plans">
-        <h2 class="title--big">Escolha seu plano</h2>
-        <ul class="plans__list">
-            <li class="plans__list__item">
-                <img src="./dist/images/logos/disneyplus_underline.png" alt="Disney+">
-                <strong class="title--small">R$ 27,90/mês*</strong>
-                <p class="text--big">
-                    No Disney+ você encontra as últimas estreias do cinema, originais e clássicos inesquecíveis.
-                </p>
-                <button class="button">Assine agora</button>
-            </li>
-            <li class="plans__list__item">
-                <img src="./dist/images/logos/disney_star_plus_sm.png" alt="Disney+">
-                <strong class="title--small">R$ 45,90/mês*</strong>
-                <p class="text--big">
-                    Assine Disney+ e Star+ juntos. Economize e aproveite agora os dois serviços por um preço único.
-                </p>
-                <button class="button">Assine agora</button>
-            </li>
-            <li class="plans__list__item">
-                <img src="./dist/images/logos/disney_star_plus_starzplay_underline.png" alt="Disney+">
-                <strong class="title--small">R$ 55,90/mês*</strong>
-                <p class="text--big">
-                    Disney+, Star+ e STARPLAY em um plano especial. Assine agora os três serviços juntos.
-                </p>
-                <button class="button">Assine agora</button>
-            </li>
-        </ul>
-        <p class="text--small">
-            *O preço pode variar caso a assinatura seja feita através de outras plataformas.
-        </p>
     </section>
     <section class="image-text-section">
-        <img src="./dist/images/tv_pc_tablet_celular.png" alt="Imagem com tv, computador, tablet e celular">
+        <img src="./dist/images/DS/death-stranding-devices.jpg" alt="Dispositivos Death Stranding">
         <div class="image-text-section__text_container">
-            <h2 class="title">Assista do seu jeito</h2>
+            <h2 class="title" style="font-family: 'Orbitron', sans-serif;">
+                Imersão Total em Vários Dispositivos
+            </h2>
             <p class="text">
-                Aproveite a tela grande da TV ou assista no tablet, laptop, celular e outros aparelhos. Nossa seleção de títulos em 4K não para de crescer. Além disso, para a felicidade de todos, é possivel assistir em até 4 telas ao mesmo tempo.
+                Experimente a vastidão de Death Stranding em diversos dispositivos, desde consoles de última geração até PCs de alta performance. Mergulhe na história e explore paisagens desoladas com gráficos incríveis e jogabilidade imersiva. Conecte-se com outros jogadores e compartilhe a jornada.
             </p>
+        </div>
+    </section>
+    <section class="image-text-section">
+        <img src="./dist/images/DS/inimigos.jpg" alt="Imagem com tv, computador, tablet e celular">
+        <div class="image-text-section__text_container">
+            <h2 class="title">Em um mundo onde a solidão encontra o perigo.</h2>
+            <p class="text">
+                Sinta a tensão a cada passo enquanto explora paisagens vastas e silenciosas, sabendo que inimigos misteriosos espreitam nas sombras. Desvende os segredos de um mundo onde a contemplação e o combate se encontram.            </p>
+        </div>
+    </section>
+    <section class="image-text-section">
+        <img src="./dist/images/DS/Jogue-do-seu-jeito.jpg" alt="Imagem com tv, computador, tablet e celular">
+        <div class="image-text-section__text_container">
+            <h2 class="title">Conecte-se com personagens inesquecíveis em uma jornada emocionante.</h2>
+            <p class="text">
+                Mergulhe em uma história profunda e emocionante, onde personagens cativantes lutam para reconstruir um mundo devastado. Descubra a importância das conexões humanas e como elas moldam o destino de um futuro incerto.            </p>
         </div>
     </section>
     <section class="image-text-section image-text-section--image-full-width">
         <picture>
-            <source media="(max-width: 768px)" srcset="./dist/images/fundo_rei_leao_celular.png"/>
-            <img src="./dist/images/fundo_rei_leao.png" alt="Rei Leão">
+            <source media="(max-width: 768px)" srcset="./dist/images/DS/baixe-agora.JPG"/>
+            <img src="./dist/images/DS/hero-mobile02.jpg.jpg" alt="Rei Leão">
         </picture>
-        <div class="image-text-section__text_container image-text-section--image-full-width__text_container">
-            <h2 class="title">Baixe filmes e séries</h2>
+        <div class="image-text-section__text_container">
+            <h2 class="title">Baixe Agora</h2>
             <p class="text">
-                Baixe e assista quando e onde quiser. Assim, seus favoritos estão sempre com você, até mesmo sem internet.
+                Baixe e jogue quando e onde quiser. Assim, seus favoritos estão sempre com você, até mesmo sem internet.
             </p>
         </div>
     </section>
@@ -184,7 +156,7 @@
         <h2 class="title">Disponível nos seus dispositivos favoritos</h2>
         <ul class="avaliable-devices__list">
             <li class="avaliable-devices__list__item">
-                <img src="./dist/images/dispositivos/computador.png" alt="Computador">
+                <img src="./dist/images/DS/device-1.png" alt="Computador">
                 <h4 class="title--small">Computador</h4>
                 <ul class="text">
                     <li>Chrome OS</li>
@@ -193,7 +165,7 @@
                 </ul>
             </li>
             <li class="avaliable-devices__list__item">
-                <img src="./dist/images/dispositivos/tv.png" alt="TV">
+                <img src="./dist/images/DS/device-2.png" alt="TV">
                 <h4 class="title--small">TV</h4>
                 <ul class="text">
                     <li>Amazon Fire TV</li>
@@ -206,7 +178,7 @@
                 </ul>
             </li>
             <li class="avaliable-devices__list__item">
-                <img src="./dist/images/dispositivos/videogames.png" alt="Videogames">
+                <img src="./dist/images/DS/device-3.png" alt="Videogames">
                 <h4 class="title--small">Videogames</h4>
                 <ul class="text">
                     <li>PS4</li>
@@ -217,7 +189,7 @@
                 </ul>
             </li>
             <li class="avaliable-devices__list__item">
-                <img src="./dist/images/dispositivos/celular.png" alt="Computador">
+                <img src="./dist/images/DS/device-4.png" alt="Computador">
                 <h4 class="title--small">Celular e Tablets</h4>
                 <ul class="text">
                     <li>Tablets Amazon Fire</li>
@@ -232,44 +204,74 @@
         <ul class="faq__questions">
             <li class="faq__questions__item">
                 <div class="faq__questions__item__question" data-faq-question>
-                    Pergunta?
+                    O que é Death Stranding?
                 </div>
-                <div class="faq__questions__item__answer text--big">
-                    A resposta da pergunta.
-                </div>
-            </li>
-            <li class="faq__questions__item">
-                <div class="faq__questions__item__question" data-faq-question>
-                    Pergunta?
-                </div>
-                <div class="faq__questions__item__answer text--big">
-                    A resposta da pergunta.
+                <div class="faq__questions__item__answer">
+                    Death Stranding é um jogo de ação e aventura em mundo aberto desenvolvido pela Kojima Productions. O jogo foi lançado para PlayStation 4 em 2019 e para Microsoft Windows em 2020.
                 </div>
             </li>
             <li class="faq__questions__item">
                 <div class="faq__questions__item__question" data-faq-question>
-                    Pergunta?
+                    Qual é a história de Death Stranding?
                 </div>
-                <div class="faq__questions__item__answer text--big">
-                    A resposta da pergunta.
+                <div class="faq__questions__item__answer">
+                    Death Stranding se passa em um futuro próximo, onde a humanidade foi devastada por um evento misterioso chamado Death Stranding. Após esse evento, criaturas misteriosas chamadas BTs começaram a vagar pela Terra, e a humanidade foi forçada a se refugiar em cidades subterrâneas. O jogador controla Sam Bridges, um mensageiro que deve viajar pela América devastada para reconectar as cidades remanescentes e salvar a humanidade da extinção.
+                </div>
+            </li>
+            <li class="faq__questions__item">
+                <div class="faq__questions__item__question" data-faq-question>
+                    Quem é o protagonista de Death Stranding?
+                </div>
+                <div class="faq__questions__item__answer">
+                    O protagonista de Death Stranding é Sam Bridges, um mensageiro que deve viajar pela América devastada para reconectar as cidades remanescentes e salvar a humanidade da extinção.
+                </div>
+            </li>
+            <li class="faq__questions__item">
+                <div class="faq__questions__item__question" data-faq-question>
+                    Quais são os principais personagens de Death Stranding?
+                </div>
+                <div class="faq__questions__item__answer">
+                    Os principais personagens de Death Stranding são:
+                    * Sam Bridges
+                    * Fragile
+                    * Die-Hardman
+                    * Mama
+                    * Higgs
+                </div>
+            </li>
+            <li class="faq__questions__item">
+                <div class="faq__questions__item__question" data-faq-question>
+                    Qual é a jogabilidade de Death Stranding?
+                </div>
+                <div class="faq__questions__item__answer">
+                    A jogabilidade de Death Stranding é focada na exploração, combate e furtividade. O jogador deve viajar pela América devastada, evitando os BTs e outros perigos, para entregar pacotes e reconectar as cidades remanescentes.
+                </div>
+            </li>
+            <li class="faq__questions__item">
+                <div class="faq__questions__item__question" data-faq-question>
+                    Quais são os locais de Death Stranding?
+                </div>
+                <div class="faq__questions__item__answer">
+                    Os principais locais de Death Stranding são:
+                    * Central Knot City
+                    * Port Knot City
+                    * Capital Knot City
                 </div>
             </li>
         </ul>
     </section>
-
     <footer class="footer">
         <div class="footer__container">
-            <img class="footer__logo" src="./dist/images/disneyplus.svg" alt="Disney+">
+            <img class="footer__logo" src="./dist/images/DS/kojima03.png" alt="Death Stranding">
             <ul class="footer__links">
                 <li class="footer__links__item">
                     <div class="language-selector">
-                        <img src="./dist/images/icones/globe.svg" alt="Globo do mundo">
+                        <img src="./dist/images/DS/language-flag.svg" alt="Globo do mundo">
                         <select>
                             <option>English</option>
                             <option selected>Portugês</option>
                         </select>
                     </div>
-                </li>
                 <li class="footer__links__item">
                     <a href="#" class="text--small">Termos e condições de uso</a>
                 </li>
@@ -277,7 +279,7 @@
                     <a href="#" class="text--small">Política de privacidade</a>
                 </li>
                 <li class="footer__links__item">
-                    <a href="#" class="text--small">Proteção de Dados no Brasil</a>
+                    <a href="#" class="text--small">Proteção de dados no Brasil</a>
                 </li>
                 <li class="footer__links__item">
                     <a href="#" class="text--small">Anúncios personalizados</a>
@@ -289,14 +291,17 @@
                     <a href="#" class="text--small">Ajuda</a>
                 </li>
                 <li class="footer__links__item">
-                    <a href="#" class="text--small">Sobre o Disney+</a>
+                    <a href="#" class="text--small">Sobre Death Stranding</a>
                 </li>
             </ul>
             <p class="text--small">
-                © 2025 RCdev - Todos os direitos reservados.
+                ® 2025 Death Stranding. Todos os direitos reservados. Conteúdo sujeito a disponibilidade do sistema.
             </p>
             <p class="text--small">
-                Disney+ é um serviço pago, baseado em assinatura e sujeito a termos e condições. O serviço Disney+ é comercializado por The Walt Disney Company(Brasil) Ltda.
+                Death Stranding é um serviço pago, comercializado por Artella Editora Ltda., CNPJ: 76.535.764/0001-43, Rua Gomes de Carvalho, 1666 - São Paulo, SP 04547-006 - Brasil
+            </p>
+            <p class="text--small">
+                Os preços podem variar de acordo com a sua plataforma de compra. Ao comprar, você concorda com os nossos Termos de Assinatura e Política de Privacidade.
             </p>
         </div>
     </footer>

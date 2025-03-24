@@ -1,3 +1,5 @@
+@use 'variaveis';
+
 .faq {
     padding: 5.6vw;
 
@@ -35,6 +37,7 @@
                 height: 0;
                 overflow: hidden;
                 padding: 0 24px;
+                color: variaveis.$corTextoSecundario;
                 transition: height, .5s ease;
             }
 
